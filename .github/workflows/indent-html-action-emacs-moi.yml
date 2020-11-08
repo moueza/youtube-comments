@@ -15,7 +15,7 @@ jobs:
     
     - name: Run a one-line script
       run: |
-      |echo Hello from indent html action emacs moi
+      |echo "Hello from indent html action emacs moi"
       | echo "poub generaed">poubActionGenerated.txt
       
 
