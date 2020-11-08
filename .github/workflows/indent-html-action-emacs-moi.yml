@@ -21,6 +21,16 @@ jobs:
         echo "poub generaed" > poubActionGenerated.txt
         commit -m "Action commit moi"
       
+    #from https://github.com/marketplace/actions/add-commit   
+    - name: Commit changes
+      uses: EndBug/add-and-commit@v5
+      with:
+        author_name: Your Name
+        author_email: mail@example.com
+        message: "Your commit message"
+        add: "*.js"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
 #TODO if https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship
 
 
