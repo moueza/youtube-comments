@@ -16,10 +16,12 @@ jobs:
     
     - name: Install dependencies
       run: npm install
-
-    - name: Update source code
-      run: eslint "**.html" --fix
-
+    #https://github.com/marketplace/actions/run-eslint :
+    - name: Install modules
+      run: yarn
+    - name: Run ESLint
+      run: eslint . --ext .js,.jsx,.ts,.tsx
+         
     - name: Commit changes
       uses: EndBug/add-and-commit@v5
       with:
