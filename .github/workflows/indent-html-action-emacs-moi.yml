@@ -28,7 +28,7 @@ jobs:
         author_name: Your Name
         author_email: mail@example.com
         message: "Your commit message"
-        add: "*.js"
+        add: "*.html"
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   
 #TODO if https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship
