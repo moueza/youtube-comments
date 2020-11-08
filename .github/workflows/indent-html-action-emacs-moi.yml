@@ -19,6 +19,7 @@ jobs:
         echo "poub generaed" ; 
         #file creation :
         echo "poub generaed" > poubActionGenerated.txt
+        commit -m "Action commit moi"
       
 #TODO if https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship
 
