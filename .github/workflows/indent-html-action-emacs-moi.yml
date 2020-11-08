@@ -18,7 +18,7 @@ jobs:
         echo "Hello from indent html action emacs moi"
         echo "Action generating" ; 
         #file creation :
-        echo "poub generated" > poubActionGenerated.txt
+        echo "<html><head></head><body>generated</body></html>" > poubActionGenerated.html
         #commit -m "Action commit moi"
       
     #from https://github.com/marketplace/actions/add-commit   
