@@ -16,10 +16,10 @@ jobs:
     - name: Run a one-line script
       run: |
         echo "Hello from indent html action emacs moi"
-        echo "poub generaed" ; 
+        echo "Action generating" ; 
         #file creation :
-        echo "poub generaed" > poubActionGenerated.txt
-        commit -m "Action commit moi"
+        echo "poub generated" > poubActionGenerated.txt
+        #commit -m "Action commit moi"
       
     #from https://github.com/marketplace/actions/add-commit   
     - name: Commit changes
