@@ -17,7 +17,8 @@ jobs:
       run: |
         echo "Hello from indent html action emacs moi"
         echo "poub generaed" ; 
-        #poubActionGenerated.txt
+        #file creation :
+        echo "poub generaed" > poubActionGenerated.txt
       
 #TODO if https://www.youtube.com/watch?v=eB0nUzAI7M8&ab_channel=Fireship
 
