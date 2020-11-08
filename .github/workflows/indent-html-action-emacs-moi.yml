@@ -14,7 +14,8 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Run a one-line script
-      run: |echo Hello from indent html action emacs moi
+      run: |
+           |echo Hello from indent html action emacs moi
            | echo "poub generaed">poubActionGenerated.txt
       
 
